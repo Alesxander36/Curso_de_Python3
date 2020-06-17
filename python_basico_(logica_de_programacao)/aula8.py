@@ -11,10 +11,11 @@
 nome = 'Alesxander'
 idade = 40
 altura = 1.88
-peso = 100
-ano = 2020 - idade
+peso = 100.5
+ano_atual = 2020
+nascimento = ano_atual - idade
 imc = peso / (altura ** 2)
 
-print('{} tem {} anos, {} de altura e pesa {}kg.'.format(nome, idade, altura, peso))
-print('O IMC de {} e {:.2f}'.format(nome, imc))
-print('{} nasceu em {}'.format(nome, ano))
+print(f'{nome} tem {idade} anos, {altura} de altura')
+print(f'{nome} pesa {peso} e seu imc e {imc:.2f}')
+print(f'{nome} nasceu em {nascimento}')
