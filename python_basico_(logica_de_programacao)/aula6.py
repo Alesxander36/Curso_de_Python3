@@ -4,7 +4,7 @@
 # Exemplos:
 
 nome = 'Alesxander Santos'
-idade = 39
+idade = """39"""
 altura = 1.88
 e_maior = idade > 18
 data_1 = True
